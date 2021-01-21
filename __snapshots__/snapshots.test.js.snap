@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Returns all items with matching id 1`] = `
+Array [
+  Object {
+    "ItemName": "Razors",
+    "Stock": "10",
+    "id": "1",
+  },
+]
+`;
+
+exports[`Returns all items with matching item name 1`] = `
+Array [
+  Object {
+    "ItemName": "Socks",
+    "Stock": "1",
+    "id": "2",
+  },
+  Object {
+    "ItemName": "Socks",
+    "Stock": "1000",
+    "id": "4",
+  },
+]
+`;
